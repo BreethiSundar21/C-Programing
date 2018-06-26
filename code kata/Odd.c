@@ -7,16 +7,16 @@ int main()
     {
         if(N%2==0)
         {
-            printf("EVEN");
+            printf("Even");
         }
         else
         {
-            printf("ODD");
+            printf("Odd");
         }
     }
     else
     {
-        printf("Invalid input");
+        printf("invalid");
     }
     return 0;
     
