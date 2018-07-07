@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main()
 {
-    int base, exponent;
+    int n1, n2;
 
     long long result = 1;
 
-    scanf("%d", &base);
+    scanf("%d", &n1);
 
 
-    scanf("%d", &exponent);
+    scanf("%d", &n2);
 
-    while (exponent != 0)
+    while (n2 != 0)
     {
-        result *= base;
-        --exponent;
+        result *= n1;
+        --n2;
     }
 
     printf("%lld", result);
